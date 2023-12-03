@@ -1,0 +1,16 @@
+
+.services Link{
+    width: 5vmax;
+}
+@media (max-width: 600px) {
+   .about{
+    display: flex; 
+    flex-direction: column;
+   }
+   .resume img{
+    width: 40vmax;
+    height: 50vmax;
+   }
+  
+ 
+}

@@ -1,0 +1,36 @@
+.java{
+    width: 100%;
+    padding-top: 2vmax;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+  
+}
+.itemsett{
+    width: 25vmax;
+    /* background-color: red; */
+    
+}
+.itemsett .image img{
+    width: 100%;
+    height: 20vmax;
+    /* background-color: rgba(0, 0, 0, 0.288); */
+    /* background-color: red; */
+}
+
+@media (max-width: 600px) {
+    .script h2{
+        font-size: 2.6vmax;
+       
+    }
+    .java{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.itemsett{
+    width: 40vmax; 
+    
+}
+}

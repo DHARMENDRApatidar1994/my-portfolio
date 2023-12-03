@@ -1,0 +1,36 @@
+.reactjs{
+    width: 100%;
+    padding-top: 2vmax;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+  
+}
+.itemsetttt .image img{
+    width: 100%;
+    height: 20vmax;
+    /* background-color: rgba(0, 0, 0, 0.288); */
+    /* background-color: red; */
+}
+.itemsetttt{
+    width: 20vmax;
+    height: 34.8vmax;
+    /* background-color: aqua; */
+    
+}
+
+@media (max-width: 600px) {
+    .react h2{
+        font-size: 2.6vmax;  
+    }
+    .reactjs{
+    flex-direction: column;
+    align-items: center;
+}
+.itemsetttt{
+    width: 40vmax;
+    height: 40vmax;
+    
+}
+}

@@ -1,0 +1,26 @@
+
+.portfolio{
+    width: 30%;
+    /* background-color: red; */
+}
+.home{
+    width: 50%;
+    /* background-color: aqua; */
+}
+.home h3{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:600px) {
+
+    .portfolio{
+        display: none;
+    }
+    .home {
+       width: 100%;
+    }
+    .home h3{
+        font-size: 1.5vmax;
+    }
+}

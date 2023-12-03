@@ -1,0 +1,33 @@
+.html{
+    width: 100%;
+    padding-top: 2vmax;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+  
+}
+.itemset{
+    width: 25vmax;
+    /* background-color: red; */
+
+}
+.itemset .image img{
+    width: 100%;
+    height: 20vmax;
+    /* background-color: rgba(0, 0, 0, 0.288); */
+    /* background-color: red; */
+}
+
+@media (max-width: 600px) {
+    .landing h2{
+        font-size: 2.6vmax;  
+    }
+    .html{
+    flex-direction: column;
+    align-items: center;
+}
+.itemset{
+    width: 40vmax;   
+}
+}
