@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import './Portfolio.css'
 import Nav from './Nav';
+import Certificates from './Certificates';
 
 
 const Container = styled.div`
@@ -202,7 +203,7 @@ const Portfolio = () => {
           </div>
           <div className='resume d-flex justify-content-center flex-column'  >
 
-            <img className='mt-3' src="DHARMENDRA.jpg" alt="" width={500} height={570} />
+            <img className='mt-3' src="DHARMENDRA KUMAR PATIDAR FINT_page-0001.jpg" alt="" width={500} height={570} />
             <button className='btn btn-dark' ><a href="#" download="CHETNA PATIDAR.jpg"><i class="ri-download-2-fill text-light">Download CV</i></a></button>
           </div>
           
@@ -223,7 +224,8 @@ const Portfolio = () => {
             </div>
             
         </div>
-         
+       
+         <Certificates/>
    
 
       <Contact id="contact"  data-aos="flip-left">

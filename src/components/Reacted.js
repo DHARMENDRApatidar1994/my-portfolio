@@ -39,6 +39,13 @@ const Reacted = () => {
       viewlink: "https://github.com/DHARMENDRApatidar1994/react-concept",
       
     },
+    {
+      image: "favicon.ico",
+      title: "",
+      desc: "In this repository i mentioned all that functionality which i used during my internship or learning time ",
+      viewlink: "https://github.com/DHARMENDRApatidar1994/react-concept",
+      
+    },
   ]
 
   return (
