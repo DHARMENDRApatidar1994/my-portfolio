@@ -195,7 +195,7 @@ const Portfolio = () => {
                 Styled Components. I love building modern and responsive
                 websites that provide a great user experience.</p>
                 <a className='text-light text-decoration-none fs-4'href='tel:9993755927'><i class="ri-phone-fill fs-2 "></i> 9993755927</a>
-                <h5><i class="ri-home-8-fill fs-2"></i>  A-132, Sonagiri,Bhopal(M.P.) 462022</h5>
+                <h5><i class="ri-home-8-fill fs-2"></i>  A-132, Sonagiri, Bhopal (M.P.) 462022</h5>
               <a className='text-light'  target='_blank' href="mailto:patidardharmendra1994@gmail.com"> <i class="ri-mail-open-fill fs-2"></i>patidardharmendra1994@gmail.com</a>
               <a className='text-light' target='_blank' href="https://github.com/dharmendrapatidar1994"><i class="ri-github-fill fs-2"></i>https://github.com/dharmendrapatidar1994</a>
              
@@ -217,10 +217,10 @@ const Portfolio = () => {
            
             <div className='services d-flex justify-content-evenly  flex-wrap w-100  '>
 
-              <Link to="/Html" className='bg-secondary text-light rounded-pill fs-2 mb-5 w-50'>HTML,CSS PROJECTS</Link>
-              <Link to="/Java" className='bg-secondary text-light rounded-pill fs-2 mb-5 w-50'>JAVASCRIPT PROJECTS</Link>
-              <Link to="/Node" className='bg-secondary text-light rounded-pill fs-2 w-50'>NODE.JS PROJECTS</Link>
-              <Link to="/Reacted" className='bg-secondary text-light rounded-pill fs-2 w-50'>REACT.JS PROJECTS</Link>
+              <Link to="/Html" className='bg-secondary text-light rounded-pill fs-2 mb-5 col-lg-5 col-12'>HTML,CSS PROJECTS</Link>
+              <Link to="/Java" className='bg-secondary text-light rounded-pill fs-2 mb-5 col-lg-5 col-12'>JAVASCRIPT PROJECTS</Link>
+              <Link to="/Node" className='bg-secondary text-light rounded-pill fs-2 mb-lg-0 mb-5 col-lg-5 col-12'>NODE.JS PROJECTS</Link>
+              <Link to="/Reacted" className='bg-secondary text-light rounded-pill fs-2 col-lg-5 col-12'>REACT.JS PROJECTS</Link>
             </div>
             
         </div>
@@ -233,10 +233,10 @@ const Portfolio = () => {
           <h2 className='text-light mb-4 mt-2 text-center '>Contact Me</h2> 
           <ContactForm className='form'  >
             {/* <FormField type="text" placeholder="Your Name" required /> */}
-            <input className='w-50 p-2 mb-3' type="text" placeholder='Your Name' required />
-            <input className='w-50 p-2 mb-3' type="text" placeholder='Email' required />
-           <input className='w-50 p-2 mb-3' type="text" placeholder='Your Message' required />
-            <FormSubmitButton className='w-50' type="submit">Send Message</FormSubmitButton>
+            <input className='col-lg-6 col-12 p-2 mb-3' type="text" placeholder='Your Name' required />
+            <input className='col-lg-6 col-12 p-2 mb-3' type="text" placeholder='Email' required />
+           <input className='col-lg-6 col-12 p-2 mb-3' type="text" placeholder='Your Message' required />
+            <FormSubmitButton className='col-lg-6 col-12' type="submit">Send Message</FormSubmitButton>
           </ContactForm>
         </Container>
       </Contact>
